@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="./Dep.js"></script>
+  <script src="./Watcher.js"></script>
+  <script src="./core.js"></script>
+  <script src="./Observer.js"></script>
+  <script src="./compile.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">{{name}}</div>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        name: 'Fish Cahn',
+      }
+    })
+  </script>
+</body>
+
+</html>
